@@ -2,11 +2,11 @@ import React from "react";
 
 function Footer() {
   return (
-    <footer style={{ backgroundColor: "rgb(250,250,250)" }}>
-      <div className="container border-top mt-5">
-        <div className="row mt-5">
+    <footer style={{ backgroundColor: "#808080" }}>
+      <div className="container border-top">
+        <div className="row mt-5" style={{color:"white"}}>
           <div className="col-3">
-            <img src="Images/logo.svg" style={{ width: "50%" }} alt="logo" />
+            <img src="SchoolImage/footerLogo.jpg" style={{ width: "50%" }} alt="logo" />
             <p>Copyright
               <i class="fa fa-at" aria-hidden="true"></i>
               2024 Vishal Bharti Senior Secondary School-
@@ -56,7 +56,7 @@ function Footer() {
             <a href="">Planner</a>
           </div>
         </div>
-        <div className="mt-5 text-muted" style={{ fontSize: "14px" }}>
+        <div className="mt-5" style={{ fontSize: "14px",color:"white" }}>
           <p>
             Zerodha Broking Ltd.: Member of NSE​ &​ BSE – SEBI Registration no.:
             INZ000031633 CDSL: Depository services through Zerodha Securities

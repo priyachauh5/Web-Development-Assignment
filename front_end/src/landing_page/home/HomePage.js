@@ -4,12 +4,13 @@ import Navbar from '../Navbar';
 import Footer from '../Footer';
 import SchoolContact from '../SchoolContact';
 import Display from './Display';
+import MainPage from './MainPage';
 
 function HomePage() {
     return ( 
         <>
             <Navbar/>
-            <Display/>
+            <MainPage/>
             <Home/>
             <SchoolContact/>
             <Footer/>
