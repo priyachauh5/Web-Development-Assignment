@@ -1,6 +1,6 @@
 import React from "react";
 
-function SchooleContact() {
+function SchoolContact() {
   return (
     <div style={{ backgroundColor: "#FFF4EA" }}>
       <div className="container p-5">
@@ -23,4 +23,4 @@ function SchooleContact() {
   );
 }
 
-export default SchooleContact;
+export default SchoolContact;

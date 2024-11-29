@@ -1,5 +1,5 @@
 import React from "react";
-// import {Link} from "react-router-dom";
+import {Link} from "react-router-dom";
 
 function Navbar() {
   return (
@@ -8,7 +8,7 @@ function Navbar() {
       style={{ backgroundColor: "#3AA6B9", height:"75px"}}
     >
       <div class="container p-2">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="">
           <img src="SchoolImage/logo.jpg" style={{ width: "80px", height:"75px" }} alt="logo" />
         </a>
         <button
@@ -31,18 +31,18 @@ function Navbar() {
           <form class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto" style={{fontSize:"20px"}}>
               <li class="nav-item" style={{marginTop:"0.9%" }}>
-                  <a class="nav-link active" aria-current="page" href="#" >
+                  <Link class="nav-link active" aria-current="page" to="/" >
                     Home
-                  </a>
+                  </Link>
               </li>
               <li class="nav-link dropdown" style={{ marginLeft: "1%" }}>
                 <a class="nav-link active dropdown-toggle" aria-expended="false" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
                   About us
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="#">Introduction</a></li>
+                    <li><Link class="dropdown-item" to="/introduction">Introduction</Link></li>
                     <li><a class="dropdown-item" href="#">Our Mission & Vision</a></li>
-                    <li><a class="dropdown-item" href="#">Mandatory Disclosure</a></li>
+                    <li><Link class="dropdown-item" to="/mandatory">Mandatory Disclosure</Link></li>
                     <li><a class="dropdown-item" href="#">Principal's Desk</a></li>
                 </ul>
               </li>

@@ -1,18 +1,16 @@
 import React from 'react';
 
 import Mandatory from './Mandatory';
-import SchoolContact from '../SchoolContact';
-import Navbar from '../Navbar';
-import Footer from '../Footer';
+import SchoolContact from '../mandatoryDisclosure/Mandatory';
+
 
 
 function MandatoryPage() {
     return ( 
         <>
-            <Navbar/>
             <Mandatory/>
             <SchoolContact/>
-            <Footer/>
+
         </>
      );
 }
